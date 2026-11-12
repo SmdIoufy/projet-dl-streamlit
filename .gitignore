@@ -1,0 +1,26 @@
+
+# Environnements Python
+venv/
+.venv/
+env/
+
+# Cache Python
+__pycache__/
+*.py[cod]
+
+# Recherche d'hyperparamètres
+tuner_dir/
+untitled_project/
+
+# Configuration locale et secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Notebooks : fichiers d'exécution temporaires
+.ipynb_checkpoints/
